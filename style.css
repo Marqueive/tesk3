@@ -1,0 +1,53 @@
+body {
+  background-color: #ffe9e3;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.logo {
+  height: 60px;
+}
+.area-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid;
+  padding: 50px;
+}
+
+.butao {
+}
+
+.paragrafo {
+  border-style: groove;
+  border-color: rgb(235, 12, 198);
+}
+.menu {
+  display: flex;
+  gap: 65px;
+}
+
+.botao {
+  height: 109px;
+  width: 419px;
+  background-color: #f013d2;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.botao:hover {
+  background-color: #c513f1;
+}
+
+.titulo {
+}
